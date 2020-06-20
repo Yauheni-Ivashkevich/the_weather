@@ -1,6 +1,10 @@
 from django.urls import path
-from . import views
+
+from .views import WeatherView
+from weather.apps import WeatherConfig
+
+app_name = WeatherConfig.label
 
 urlpatterns = [
-    path('', views.index),  #the path for our index view
+    path('', WeatherView.as_view(), name="weather"),  #the path for our weather view
 ]
