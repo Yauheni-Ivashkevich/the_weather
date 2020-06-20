@@ -15,7 +15,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dG0w0fAs02sPDS9C6vd91YCl7J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -84,15 +90,18 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Pipfile" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="418" y="173" width="1236" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592053690201">
       <screen x="0" y="0" width="1920" height="1029" />
     </state>
     <state x="418" y="173" width="1236" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1029@0.0.1920.1029" timestamp="1592053690201" />
-    <state x="691" y="273" key="FileChooserDialogImpl" timestamp="1592058185157">
+    <state x="691" y="273" key="FileChooserDialogImpl" timestamp="1592561150185">
       <screen x="0" y="0" width="1920" height="1029" />
     </state>
-    <state x="691" y="273" key="FileChooserDialogImpl/0.0.1920.1029@0.0.1920.1029" timestamp="1592058185157" />
+    <state x="691" y="273" key="FileChooserDialogImpl/0.0.1920.1029@0.0.1920.1029" timestamp="1592561150185" />
     <state x="419" y="150" key="SettingsEditor" timestamp="1592053574343">
       <screen x="0" y="0" width="1920" height="1029" />
     </state>
