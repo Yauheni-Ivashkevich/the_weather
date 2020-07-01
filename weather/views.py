@@ -11,7 +11,7 @@ from .models import City
 
 class WeatherView(FormView):
     form_class = CityForm
-    success_url = "/"
+    success_url = 'weather/index.html'
     template_name = 'weather/index.html'
     appid = '8232076cfb0c3a0a28e2c3f26d07da6d'
     default_city = "Minsk"
@@ -92,9 +92,9 @@ class WeatherView(FormView):
             print(f"WARNING: no city {city_name} in database")
             return {}
 
-        if not city.last_sync:
-            print(f"WARNING: city {city_name} was not synchronized")
-            return {}
+        # if not city.last_sync:
+        #     print(f"WARNING: city {city_name} was not synchronized")
+        #     return {}
 
         atm = datetime.utcnow().replace(tzinfo=pytz.UTC)
         lsy = city.last_sync
